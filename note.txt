@@ -1,1 +1,0 @@
-python distill.py --data_dir ./training_data --output_dir ./distilled_data
