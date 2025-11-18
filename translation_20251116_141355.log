@@ -1,0 +1,88 @@
+2025-11-16 14:13:56,115 - INFO - Loading model facebook/nllb-200-3.3B on cuda
+2025-11-16 14:17:31,717 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-11-16 14:17:45,601 - INFO - 
+==================================================
+2025-11-16 14:17:45,601 - INFO - Processing wo → fr (Expected: 9071 rows)
+2025-11-16 14:17:45,602 - INFO - ==================================================
+2025-11-16 14:17:45,602 - WARNING - No data file found for wo-fr
+2025-11-16 14:17:45,616 - WARNING - No data found for wo-fr
+2025-11-16 14:17:45,616 - INFO - 
+==================================================
+2025-11-16 14:17:45,616 - INFO - Processing yo → en (Expected: 22626 rows)
+2025-11-16 14:17:45,616 - INFO - ==================================================
+2025-11-16 14:17:45,616 - WARNING - No data file found for yo-en
+2025-11-16 14:17:45,616 - WARNING - No data found for yo-en
+2025-11-16 14:17:45,616 - INFO - 
+==================================================
+2025-11-16 14:17:45,616 - INFO - Processing wo → en (Expected: 31170 rows)
+2025-11-16 14:17:45,616 - INFO - ==================================================
+2025-11-16 14:17:45,616 - WARNING - No data file found for wo-en
+2025-11-16 14:17:45,617 - WARNING - No data found for wo-en
+2025-11-16 14:17:45,617 - INFO - 
+==================================================
+2025-11-16 14:17:45,617 - INFO - Processing zu → en (Expected: 33189 rows)
+2025-11-16 14:17:45,617 - INFO - ==================================================
+2025-11-16 14:17:45,617 - WARNING - No data file found for zu-en
+2025-11-16 14:17:45,617 - WARNING - No data found for zu-en
+2025-11-16 14:17:45,617 - INFO - 
+==================================================
+2025-11-16 14:17:45,617 - INFO - Processing so → en (Expected: 43657 rows)
+2025-11-16 14:17:45,617 - INFO - ==================================================
+2025-11-16 14:17:45,617 - WARNING - No data file found for so-en
+2025-11-16 14:17:45,617 - WARNING - No data found for so-en
+2025-11-16 14:17:45,618 - INFO - 
+==================================================
+2025-11-16 14:17:45,618 - INFO - Processing am → en (Expected: 71800 rows)
+2025-11-16 14:17:45,618 - INFO - ==================================================
+2025-11-16 14:17:45,618 - WARNING - No data file found for am-en
+2025-11-16 14:17:45,618 - WARNING - No data found for am-en
+2025-11-16 14:17:45,618 - INFO - 
+==================================================
+2025-11-16 14:17:45,618 - INFO - Processing arz → en (Expected: 84170 rows)
+2025-11-16 14:17:45,618 - INFO - ==================================================
+2025-11-16 14:17:45,618 - WARNING - No data file found for arz-en
+2025-11-16 14:17:45,618 - WARNING - No data found for arz-en
+2025-11-16 14:17:45,618 - INFO - 
+==================================================
+2025-11-16 14:17:45,618 - INFO - Processing ha → en (Expected: 155881 rows)
+2025-11-16 14:17:45,618 - INFO - ==================================================
+2025-11-16 14:17:45,619 - WARNING - No data file found for ha-en
+2025-11-16 14:17:45,619 - WARNING - No data found for ha-en
+2025-11-16 14:17:45,619 - INFO - 
+==================================================
+2025-11-16 14:17:45,619 - INFO - Processing af → en (Expected: 161644 rows)
+2025-11-16 14:17:45,619 - INFO - ==================================================
+2025-11-16 14:17:45,619 - WARNING - No data file found for af-en
+2025-11-16 14:17:45,619 - WARNING - No data found for af-en
+2025-11-16 14:17:45,619 - INFO - 
+==================================================
+2025-11-16 14:17:45,619 - INFO - Processing sw → en (Expected: 314300 rows)
+2025-11-16 14:17:45,619 - INFO - ==================================================
+2025-11-16 14:17:45,619 - WARNING - No data file found for sw-en
+2025-11-16 14:17:45,620 - WARNING - No data found for sw-en
+2025-11-16 14:17:45,620 - INFO - 
+==================================================
+2025-11-16 14:17:45,620 - INFO - Processing es → en (Expected: 1324681 rows)
+2025-11-16 14:17:45,620 - INFO - ==================================================
+2025-11-16 14:17:45,620 - WARNING - No data file found for es-en
+2025-11-16 14:17:45,620 - WARNING - No data found for es-en
+2025-11-16 14:17:45,620 - INFO - 
+==================================================
+2025-11-16 14:17:45,620 - INFO - Processing pt → en (Expected: 1401671 rows)
+2025-11-16 14:17:45,620 - INFO - ==================================================
+2025-11-16 14:17:45,620 - WARNING - No data file found for pt-en
+2025-11-16 14:17:45,620 - WARNING - No data found for pt-en
+2025-11-16 14:17:45,620 - INFO - 
+==================================================
+2025-11-16 14:17:45,620 - INFO - Processing ar → en (Expected: 1424237 rows)
+2025-11-16 14:17:45,620 - INFO - ==================================================
+2025-11-16 14:17:45,621 - WARNING - No data file found for ar-en
+2025-11-16 14:17:45,621 - WARNING - No data found for ar-en
+2025-11-16 14:17:45,621 - INFO - 
+==================================================
+2025-11-16 14:17:45,621 - INFO - Processing fr → en (Expected: 1483951 rows)
+2025-11-16 14:17:45,621 - INFO - ==================================================
+2025-11-16 14:17:45,621 - WARNING - No data file found for fr-en
+2025-11-16 14:17:45,621 - WARNING - No data found for fr-en
+2025-11-16 14:17:45,621 - INFO - 
+Processing complete! Summary saved to ./distilled_data/processing_summary.json

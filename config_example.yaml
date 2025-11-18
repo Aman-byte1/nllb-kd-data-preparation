@@ -1,0 +1,33 @@
+model:
+  name: "facebook/nllb-200-3.3B"
+  device: "cuda"
+  dtype: "float16"
+
+dataset:
+  hf_dataset: "amaniopia/merged_train"
+  hf_split: "train"
+  max_rows: 5000
+
+data:
+  input_dir: "./data"
+  output_dir: "./distilled_data"
+
+translation:
+  batch_size: 8
+  num_beams: 5
+  max_length: 512
+  chunk_size: 100
+
+language_pairs:
+  - ["wo", "fr", 1000]
+  - ["am", "en", 5000]
+  - ["yo", "en", 3000]
+  - ["en", "am", null]
+
+filtering:
+  min_length: 1
+  max_length: 512
+  remove_duplicates: true
+  remove_identical: true
+
+authentic_data_dir: null
