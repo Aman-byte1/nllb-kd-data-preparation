@@ -13,7 +13,7 @@ paths:
 
 huggingface:
   token: ""
-  username: "amanuelbyte"
+  username: ""
   repo_name: "nllb-distilled-dataset-v1" 
   private: true
 
