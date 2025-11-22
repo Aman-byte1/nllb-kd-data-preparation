@@ -1,33 +1,47 @@
 model:
   name: "facebook/nllb-200-3.3B"
   device: "cuda"
-  dtype: "float16"
+  dtype: "float16" # Full Precision for A40
 
 dataset:
   hf_dataset: "amaniopia/merged_train"
   hf_split: "train"
-  max_rows: 5000
+  max_rows: null 
 
-data:
-  input_dir: "./data"
+paths:
   output_dir: "./distilled_data"
 
-translation:
-  batch_size: 8
-  num_beams: 5
-  max_length: 512
-  chunk_size: 100
+huggingface:
+  token: ""
+  username: "amanuelbyte"
+  repo_name: "nllb-distilled-dataset-v1" 
+  private: true
 
-language_pairs:
-  - ["wo", "fr", 1000]
-  - ["am", "en", 5000]
-  - ["yo", "en", 3000]
-  - ["en", "am", null]
+translation:
+  batch_size: 32
+  num_beams: 3
+  max_length: 512
+  chunk_size: 500
 
 filtering:
-  min_length: 1
-  max_length: 512
-  remove_duplicates: true
-  remove_identical: true
+  qe_model: "masakhane/africomet-qe-stl-1.1"
+  qe_threshold: 0.60     # Minimum Score. If lower, translation is set to None.
+  min_len_ratio: 0.25    # If translation is too short/long, set to None.
+  max_len_ratio: 4.0
+  batch_size: 64
 
-authentic_data_dir: null
+language_pairs:
+ 
+  - ["en", "am"]
+
+  - ["zu", "en"]
+  
+  - ["en", "so"]
+
+  - ["yo", "en"]
+  
+  - ["en", "wo"]
+  
+  - ["wo", "fr"]
+  
+  - ["fr", "ln"]
